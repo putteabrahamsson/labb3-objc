@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewViewController.h
 //  labb2
 //
 //  Created by Putte on 2020-01-20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface NewViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
