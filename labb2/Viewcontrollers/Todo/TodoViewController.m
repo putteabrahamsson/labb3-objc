@@ -174,7 +174,7 @@ canEditRowAtIndexPath:(NSIndexPath *)indexPath{
         vc.date = _data[indexPath.row][@"dateKey"];
         vc.indexPath = indexPath;
         
-        if([(self.data[indexPath.row])[@"priorKey"]isEqualToString:@"YES"]){
+    if([(self.data[indexPath.row])[@"priorKey"]isEqualToString:@"YES"]){
             vc.prior = @"Ja";
         }
         else{

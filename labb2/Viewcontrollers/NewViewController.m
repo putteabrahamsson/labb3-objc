@@ -27,9 +27,6 @@
 //Button to create a new TODO.
 - (IBAction)addNewTodo:(id)sender {
     
-    //Create an alert to avoid empty textfields
-    //<------- TODO ------>
-    
     //Retrieve array from UserDefaults
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     _data = [[defaults objectForKey:@"arrayData"] mutableCopy];
